@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-800">
-      <div className="bg-gradient-to-br from-yellow-200 via-pink-200 to-blue-200 p-8 rounded shadow-md w-full max-w-md flex flex-col items-center">
+      <div className="bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-8 rounded shadow-md w-full max-w-md flex flex-col items-center text-white">
         <h1 className='text-2xl font-bold mb-4 text-center'>Todo List</h1>
         <form className="w-full flex flex-col items-center" onSubmit={addTodo}>
           <input
